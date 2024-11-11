@@ -1,6 +1,6 @@
-import helloWorldController from "../controllers/helloWorldController";
+import categotyRoute from "./categotyRoute";
 
-
-export default function (app) {
-  app.get('/hello-world/oi', helloWorldController.oi);
+function Routes(app){
+  categotyRoute(app);
 }
+export default Routes;
